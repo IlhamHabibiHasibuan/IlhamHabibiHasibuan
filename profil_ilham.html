@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<head>
+ <title>Profil Diri</title>
+ <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+<body style="background-color:rgb(199, 193, 193);"> 
+    <div id="app">
+       <h2>{{message}} &#128527;</h2>
+       <p>{{nama}}</p>
+       <P>{{nim}}</P>
+       <P>{{jurusan}}</P>
+       <p>{{fakultas}}</p>
+      </div>
+
+      <script type="text/javascript">
+                var vm = new Vue({
+        el: '#app',
+        data: {
+            message: 'My Profile ',
+            nama:   'Nama : Ilham Habibj Hasibuan',
+            nim: 'Nim : 11950115078',
+            jurusan:  'Jurusan :  teknik informatika',
+            fakultas:   'Fakultas : Sains dan teknologi'
+        }
+        })
+      </script>
+</html>
+</body>
